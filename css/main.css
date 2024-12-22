@@ -1,0 +1,234 @@
+* {
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(114, 210, 255);
+    background: linear-gradient(180deg , rgb(114, 210, 255), rgb(253, 255, 148));
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgb(255, 248, 205);
+    box-shadow: 0px 8px 24px rgb(0, 0, 0, 0.333), 0px 8px 0px rgba(0, 0, 0, 0.333), 0px 4px 0px rgba(0, 0, 0, 0.333), inset 0px 0px 12px rgb(255, 255, 255);
+    font-family: "Capriola";
+}
+
+.nav-links-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links-container svg {
+    margin-right: 32px;
+    filter: drop-shadow(2px 4px 0px rgb(0 0 0 / 0.4));
+    transition: all 150ms;
+}
+
+.nav-links-container svg:hover {
+    filter: drop-shadow(4px 6px 0px rgb(0 0 0 / 0.4));
+}
+
+.nav-links {
+    margin-left: 14px;
+    margin-right: 14px;
+    color: rgb(63, 161, 246);
+    transition: all 150ms;
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+
+.nav-links:hover {
+    color: rgb(38, 90, 135);
+}
+
+.cta-container a {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.register-btn {
+    color: grey;
+    transition: all 150ms;
+}
+
+.register-btn:hover {
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.login-btn {
+    background-color: rgb(40, 175, 225);
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    transition: all 150ms;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.333);
+}
+
+.login-btn:hover {
+    color: white;
+    background-color: rgb(20, 115, 185);
+    box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.333);
+}
+
+.main-description-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 82px;
+    margin-bottom: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.description-logo svg {
+    filter: drop-shadow(6px 10px 0px rgb(0 0 0 / 0.4));
+}
+
+h1 {
+    text-align: center;
+    font-family: "Capriola";
+    font-size: 56px;
+    color: rgb(255, 251, 0);
+    text-shadow: 2px 2px 0px black, 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+.description-p {
+    text-align: center;
+    font-family: "Capriola";
+}
+
+.second-description-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 82px;
+    margin-bottom: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Capriola";
+    color: rgb(255, 251, 0);
+    text-shadow: 2px 2px 0px black, 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    width: 20%;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+    margin: 64px auto;
+}
+
+.second-description-p {
+    font-family: "Capriola";
+    font-weight: 200;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.second-logo-description svg {
+    filter: drop-shadow(6px 10px 0px rgb(0 0 0 / 0.4));
+}
+
+.third-logo-description svg {
+    filter: drop-shadow(6px 10px 0px rgb(0 0 0 / 0.4));
+}
+
+.third-description-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 82px;
+    margin-bottom: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.third-description-p {
+    font-family: "Capriola";
+    font-weight: 200;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.footer-container {
+    background-color: rgb(255, 248, 205);
+    box-shadow: 0px -8px 24px rgb(0, 0, 0, 0.333), 0px -8px 0px rgba(0, 0, 0, 0.333), 0px -4px 0px rgba(0, 0, 0, 0.333), inset 0px 0px 12px rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.footer-logo {
+    filter: drop-shadow(2px 4px 0px rgb(0 0 0 / 0.4));
+    transition: all 150ms;
+    margin-right: 20px;
+}
+
+.footer-logo:hover {
+    filter: drop-shadow(4px 6px 0px rgb(0 0 0 / 0.4));
+}
+
+.footer-links {
+    margin-left: 14px;
+    margin-right: 14px;
+    color: rgb(63, 161, 246);
+    transition: all 150ms;
+    text-shadow: 1.5px 1.5px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Capriola";
+    width: 100%;
+}
+
+.footer-links-container {
+    display: flex;
+}
+
+@media screen and (max-width: 1140px) {
+    .second-description-container {
+        flex-direction: column;
+    }
+
+    .third-description-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links {
+        display: none;
+    }
+
+    .main-description-container {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .description-logo svg {
+        width: 182px;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+}
